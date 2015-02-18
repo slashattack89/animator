@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64DB22F81A2E330200279B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DB22F71A2E330200279B37 /* AppDelegate.swift */; };
+		64DB22FA1A2E330200279B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DB22F91A2E330200279B37 /* ViewController.swift */; };
+		64DB22FD1A2E330200279B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DB22FB1A2E330200279B37 /* Main.storyboard */; };
+		64DB22FF1A2E330200279B37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DB22FE1A2E330200279B37 /* Images.xcassets */; };
+		64DB23021A2E330200279B37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23001A2E330200279B37 /* LaunchScreen.xib */; };
+		64DB230E1A2E330200279B37 /* StickmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DB230D1A2E330200279B37 /* StickmanTests.swift */; };
+		64DB232F1A2E334C00279B37 /* bicep back.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23191A2E334C00279B37 /* bicep back.png */; };
+		64DB23301A2E334C00279B37 /* bicep back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB231A1A2E334C00279B37 /* bicep back@2x.png */; };
+		64DB23311A2E334C00279B37 /* bicep front.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB231B1A2E334C00279B37 /* bicep front.png */; };
+		64DB23321A2E334C00279B37 /* bicep front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB231C1A2E334C00279B37 /* bicep front@2x.png */; };
+		64DB23331A2E334C00279B37 /* forearm back.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB231D1A2E334C00279B37 /* forearm back.png */; };
+		64DB23341A2E334C00279B37 /* forearm back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB231E1A2E334C00279B37 /* forearm back@2x.png */; };
+		64DB23351A2E334C00279B37 /* forearm front.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB231F1A2E334C00279B37 /* forearm front.png */; };
+		64DB23361A2E334C00279B37 /* forearm front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23201A2E334C00279B37 /* forearm front@2x.png */; };
+		64DB23371A2E334C00279B37 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23211A2E334C00279B37 /* head.png */; };
+		64DB23381A2E334C00279B37 /* head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23221A2E334C00279B37 /* head@2x.png */; };
+		64DB23391A2E334C00279B37 /* shin back.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23231A2E334C00279B37 /* shin back.png */; };
+		64DB233A1A2E334C00279B37 /* shin back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23241A2E334C00279B37 /* shin back@2x.png */; };
+		64DB233B1A2E334C00279B37 /* shin front.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23251A2E334C00279B37 /* shin front.png */; };
+		64DB233C1A2E334C00279B37 /* shin front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23261A2E334C00279B37 /* shin front@2x.png */; };
+		64DB233D1A2E334C00279B37 /* thigh back.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23271A2E334C00279B37 /* thigh back.png */; };
+		64DB233E1A2E334C00279B37 /* thigh back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23281A2E334C00279B37 /* thigh back@2x.png */; };
+		64DB233F1A2E334C00279B37 /* thigh front.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB23291A2E334C00279B37 /* thigh front.png */; };
+		64DB23401A2E334C00279B37 /* thigh front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB232A1A2E334C00279B37 /* thigh front@2x.png */; };
+		64DB23411A2E334C00279B37 /* torso.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB232B1A2E334C00279B37 /* torso.png */; };
+		64DB23421A2E334C00279B37 /* torso@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DB232C1A2E334C00279B37 /* torso@2x.png */; };
+		64DB23441A2E334C00279B37 /* StickmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DB232E1A2E334C00279B37 /* StickmanView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64DB23081A2E330200279B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64DB22EA1A2E330200279B37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64DB22F11A2E330200279B37;
+			remoteInfo = Stickman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64DB22F21A2E330200279B37 /* Stickman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DB22F61A2E330200279B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DB22F71A2E330200279B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64DB22F91A2E330200279B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64DB22FC1A2E330200279B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64DB22FE1A2E330200279B37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64DB23011A2E330200279B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		64DB23071A2E330200279B37 /* StickmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DB230C1A2E330200279B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DB230D1A2E330200279B37 /* StickmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanTests.swift; sourceTree = "<group>"; };
+		64DB23191A2E334C00279B37 /* bicep back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bicep back.png"; sourceTree = "<group>"; };
+		64DB231A1A2E334C00279B37 /* bicep back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bicep back@2x.png"; sourceTree = "<group>"; };
+		64DB231B1A2E334C00279B37 /* bicep front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bicep front.png"; sourceTree = "<group>"; };
+		64DB231C1A2E334C00279B37 /* bicep front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bicep front@2x.png"; sourceTree = "<group>"; };
+		64DB231D1A2E334C00279B37 /* forearm back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forearm back.png"; sourceTree = "<group>"; };
+		64DB231E1A2E334C00279B37 /* forearm back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forearm back@2x.png"; sourceTree = "<group>"; };
+		64DB231F1A2E334C00279B37 /* forearm front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forearm front.png"; sourceTree = "<group>"; };
+		64DB23201A2E334C00279B37 /* forearm front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forearm front@2x.png"; sourceTree = "<group>"; };
+		64DB23211A2E334C00279B37 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		64DB23221A2E334C00279B37 /* head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head@2x.png"; sourceTree = "<group>"; };
+		64DB23231A2E334C00279B37 /* shin back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin back.png"; sourceTree = "<group>"; };
+		64DB23241A2E334C00279B37 /* shin back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin back@2x.png"; sourceTree = "<group>"; };
+		64DB23251A2E334C00279B37 /* shin front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin front.png"; sourceTree = "<group>"; };
+		64DB23261A2E334C00279B37 /* shin front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin front@2x.png"; sourceTree = "<group>"; };
+		64DB23271A2E334C00279B37 /* thigh back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thigh back.png"; sourceTree = "<group>"; };
+		64DB23281A2E334C00279B37 /* thigh back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thigh back@2x.png"; sourceTree = "<group>"; };
+		64DB23291A2E334C00279B37 /* thigh front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thigh front.png"; sourceTree = "<group>"; };
+		64DB232A1A2E334C00279B37 /* thigh front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thigh front@2x.png"; sourceTree = "<group>"; };
+		64DB232B1A2E334C00279B37 /* torso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torso.png; sourceTree = "<group>"; };
+		64DB232C1A2E334C00279B37 /* torso@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torso@2x.png"; sourceTree = "<group>"; };
+		64DB232D1A2E334C00279B37 /* stickman.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = stickman.coreanimator; sourceTree = "<group>"; };
+		64DB232E1A2E334C00279B37 /* StickmanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickmanView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64DB22EF1A2E330200279B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DB23041A2E330200279B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64DB22E91A2E330200279B37 = {
+			isa = PBXGroup;
+			children = (
+				64DB22F41A2E330200279B37 /* Stickman */,
+				64DB230A1A2E330200279B37 /* StickmanTests */,
+				64DB22F31A2E330200279B37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64DB22F31A2E330200279B37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64DB22F21A2E330200279B37 /* Stickman.app */,
+				64DB23071A2E330200279B37 /* StickmanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64DB22F41A2E330200279B37 /* Stickman */ = {
+			isa = PBXGroup;
+			children = (
+				64DB23171A2E334C00279B37 /* CORE */,
+				64DB22F71A2E330200279B37 /* AppDelegate.swift */,
+				64DB22F91A2E330200279B37 /* ViewController.swift */,
+				64DB22FB1A2E330200279B37 /* Main.storyboard */,
+				64DB22FE1A2E330200279B37 /* Images.xcassets */,
+				64DB23001A2E330200279B37 /* LaunchScreen.xib */,
+				64DB22F51A2E330200279B37 /* Supporting Files */,
+			);
+			path = Stickman;
+			sourceTree = "<group>";
+		};
+		64DB22F51A2E330200279B37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64DB22F61A2E330200279B37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64DB230A1A2E330200279B37 /* StickmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				64DB230D1A2E330200279B37 /* StickmanTests.swift */,
+				64DB230B1A2E330200279B37 /* Supporting Files */,
+			);
+			path = StickmanTests;
+			sourceTree = "<group>";
+		};
+		64DB230B1A2E330200279B37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64DB230C1A2E330200279B37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64DB23171A2E334C00279B37 /* CORE */ = {
+			isa = PBXGroup;
+			children = (
+				64DB23181A2E334C00279B37 /* images */,
+				64DB232D1A2E334C00279B37 /* stickman.coreanimator */,
+				64DB232E1A2E334C00279B37 /* StickmanView.swift */,
+			);
+			path = CORE;
+			sourceTree = "<group>";
+		};
+		64DB23181A2E334C00279B37 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				64DB23191A2E334C00279B37 /* bicep back.png */,
+				64DB231A1A2E334C00279B37 /* bicep back@2x.png */,
+				64DB231B1A2E334C00279B37 /* bicep front.png */,
+				64DB231C1A2E334C00279B37 /* bicep front@2x.png */,
+				64DB231D1A2E334C00279B37 /* forearm back.png */,
+				64DB231E1A2E334C00279B37 /* forearm back@2x.png */,
+				64DB231F1A2E334C00279B37 /* forearm front.png */,
+				64DB23201A2E334C00279B37 /* forearm front@2x.png */,
+				64DB23211A2E334C00279B37 /* head.png */,
+				64DB23221A2E334C00279B37 /* head@2x.png */,
+				64DB23231A2E334C00279B37 /* shin back.png */,
+				64DB23241A2E334C00279B37 /* shin back@2x.png */,
+				64DB23251A2E334C00279B37 /* shin front.png */,
+				64DB23261A2E334C00279B37 /* shin front@2x.png */,
+				64DB23271A2E334C00279B37 /* thigh back.png */,
+				64DB23281A2E334C00279B37 /* thigh back@2x.png */,
+				64DB23291A2E334C00279B37 /* thigh front.png */,
+				64DB232A1A2E334C00279B37 /* thigh front@2x.png */,
+				64DB232B1A2E334C00279B37 /* torso.png */,
+				64DB232C1A2E334C00279B37 /* torso@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64DB22F11A2E330200279B37 /* Stickman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DB23111A2E330200279B37 /* Build configuration list for PBXNativeTarget "Stickman" */;
+			buildPhases = (
+				64DB22EE1A2E330200279B37 /* Sources */,
+				64DB22EF1A2E330200279B37 /* Frameworks */,
+				64DB22F01A2E330200279B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stickman;
+			productName = Stickman;
+			productReference = 64DB22F21A2E330200279B37 /* Stickman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64DB23061A2E330200279B37 /* StickmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DB23141A2E330200279B37 /* Build configuration list for PBXNativeTarget "StickmanTests" */;
+			buildPhases = (
+				64DB23031A2E330200279B37 /* Sources */,
+				64DB23041A2E330200279B37 /* Frameworks */,
+				64DB23051A2E330200279B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64DB23091A2E330200279B37 /* PBXTargetDependency */,
+			);
+			name = StickmanTests;
+			productName = StickmanTests;
+			productReference = 64DB23071A2E330200279B37 /* StickmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64DB22EA1A2E330200279B37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Polished Play, LLC";
+				TargetAttributes = {
+					64DB22F11A2E330200279B37 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					64DB23061A2E330200279B37 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 64DB22F11A2E330200279B37;
+					};
+				};
+			};
+			buildConfigurationList = 64DB22ED1A2E330200279B37 /* Build configuration list for PBXProject "Stickman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64DB22E91A2E330200279B37;
+			productRefGroup = 64DB22F31A2E330200279B37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64DB22F11A2E330200279B37 /* Stickman */,
+				64DB23061A2E330200279B37 /* StickmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64DB22F01A2E330200279B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DB23331A2E334C00279B37 /* forearm back.png in Resources */,
+				64DB233A1A2E334C00279B37 /* shin back@2x.png in Resources */,
+				64DB22FD1A2E330200279B37 /* Main.storyboard in Resources */,
+				64DB23361A2E334C00279B37 /* forearm front@2x.png in Resources */,
+				64DB232F1A2E334C00279B37 /* bicep back.png in Resources */,
+				64DB23381A2E334C00279B37 /* head@2x.png in Resources */,
+				64DB23021A2E330200279B37 /* LaunchScreen.xib in Resources */,
+				64DB23371A2E334C00279B37 /* head.png in Resources */,
+				64DB23321A2E334C00279B37 /* bicep front@2x.png in Resources */,
+				64DB233E1A2E334C00279B37 /* thigh back@2x.png in Resources */,
+				64DB23421A2E334C00279B37 /* torso@2x.png in Resources */,
+				64DB23351A2E334C00279B37 /* forearm front.png in Resources */,
+				64DB233F1A2E334C00279B37 /* thigh front.png in Resources */,
+				64DB233D1A2E334C00279B37 /* thigh back.png in Resources */,
+				64DB23411A2E334C00279B37 /* torso.png in Resources */,
+				64DB22FF1A2E330200279B37 /* Images.xcassets in Resources */,
+				64DB23311A2E334C00279B37 /* bicep front.png in Resources */,
+				64DB233B1A2E334C00279B37 /* shin front.png in Resources */,
+				64DB23341A2E334C00279B37 /* forearm back@2x.png in Resources */,
+				64DB233C1A2E334C00279B37 /* shin front@2x.png in Resources */,
+				64DB23301A2E334C00279B37 /* bicep back@2x.png in Resources */,
+				64DB23401A2E334C00279B37 /* thigh front@2x.png in Resources */,
+				64DB23391A2E334C00279B37 /* shin back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DB23051A2E330200279B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64DB22EE1A2E330200279B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DB23441A2E334C00279B37 /* StickmanView.swift in Sources */,
+				64DB22FA1A2E330200279B37 /* ViewController.swift in Sources */,
+				64DB22F81A2E330200279B37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DB23031A2E330200279B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DB230E1A2E330200279B37 /* StickmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64DB23091A2E330200279B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64DB22F11A2E330200279B37 /* Stickman */;
+			targetProxy = 64DB23081A2E330200279B37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64DB22FB1A2E330200279B37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DB22FC1A2E330200279B37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64DB23001A2E330200279B37 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DB23011A2E330200279B37 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64DB230F1A2E330200279B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64DB23101A2E330200279B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64DB23121A2E330200279B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Stickman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		64DB23131A2E330200279B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Stickman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		64DB23151A2E330200279B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StickmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stickman.app/Stickman";
+			};
+			name = Debug;
+		};
+		64DB23161A2E330200279B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StickmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stickman.app/Stickman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64DB22ED1A2E330200279B37 /* Build configuration list for PBXProject "Stickman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DB230F1A2E330200279B37 /* Debug */,
+				64DB23101A2E330200279B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DB23111A2E330200279B37 /* Build configuration list for PBXNativeTarget "Stickman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DB23121A2E330200279B37 /* Debug */,
+				64DB23131A2E330200279B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DB23141A2E330200279B37 /* Build configuration list for PBXNativeTarget "StickmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DB23151A2E330200279B37 /* Debug */,
+				64DB23161A2E330200279B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64DB22EA1A2E330200279B37 /* Project object */;
+}
